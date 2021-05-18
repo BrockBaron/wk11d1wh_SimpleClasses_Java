@@ -12,7 +12,7 @@ public class WaterBottle {
 
     public int volumeAfterDrink() {
         int drink = 10;
-        return this.volume - drink;
+        return this.volume -= drink;
 //        for loop, append item each time till 0
 //        get volume, if volume is greater than 0 then reduce volume by 10
 //        append volume to new value until 0
